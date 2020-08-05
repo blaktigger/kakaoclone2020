@@ -1,3 +1,3 @@
 # Kakao Clone 2020 
 
-csshtml!
+HTML and CSS are so much fun!
