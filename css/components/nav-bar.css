@@ -19,6 +19,7 @@
     position: absolute;
     left: 20px;
     bottom: 17px;
+    animation: notificationAnimation 3s ease-in-out infinite;
 }
 .nav__notice{
     background-color: tomato;
@@ -32,3 +33,15 @@
     left: 30px;
     bottom: 30px;
 }
+
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{   
+        transform: none;
+    }
+} 
